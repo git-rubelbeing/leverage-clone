@@ -18,10 +18,10 @@ export const Navigation = () => {
             <a href="#services" className="text-sm font-medium text-foreground transition-colors hover:text-primary">
               Services
             </a>
-            <a href="#onboarding" className="text-sm font-medium text-foreground transition-colors hover:text-primary">
+            <a href="#people-process-tech" className="text-sm font-medium text-foreground transition-colors hover:text-primary">
               Onboarding
             </a>
-            <a href="#resources" className="text-sm font-medium text-foreground transition-colors hover:text-primary">
+            <a href="#testimonials" className="text-sm font-medium text-foreground transition-colors hover:text-primary">
               Resources
             </a>
             <a href="#about" className="text-sm font-medium text-foreground transition-colors hover:text-primary">
@@ -54,10 +54,10 @@ export const Navigation = () => {
               <a href="#services" className="text-sm font-medium text-foreground" onClick={() => setIsOpen(false)}>
                 Services
               </a>
-              <a href="#onboarding" className="text-sm font-medium text-foreground" onClick={() => setIsOpen(false)}>
+              <a href="#people-process-tech" className="text-sm font-medium text-foreground" onClick={() => setIsOpen(false)}>
                 Onboarding
               </a>
-              <a href="#resources" className="text-sm font-medium text-foreground" onClick={() => setIsOpen(false)}>
+              <a href="#testimonials" className="text-sm font-medium text-foreground" onClick={() => setIsOpen(false)}>
                 Resources
               </a>
               <a href="#about" className="text-sm font-medium text-foreground" onClick={() => setIsOpen(false)}>
