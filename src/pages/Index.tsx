@@ -5,6 +5,7 @@ import { ComparisonSection } from "@/components/ComparisonSection";
 import { ServiceCard } from "@/components/ServiceCard";
 import { FAQSection } from "@/components/FAQSection";
 import { TestimonialCard } from "@/components/TestimonialCard";
+import { ScrollToTop } from "@/components/ScrollToTop";
 import {
   ArrowRight,
   Clock,
@@ -35,9 +36,10 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       <Navigation />
+      <ScrollToTop />
 
       {/* Hero Section */}
-      <section className="relative overflow-hidden bg-gradient-to-br from-primary via-primary to-accent py-20 md:py-32">
+      <section id="home" className="relative overflow-hidden bg-gradient-to-br from-primary via-primary to-accent py-20 md:py-32">
         <div className="container mx-auto px-4">
           <div className="grid items-center gap-12 md:grid-cols-2">
             <div>
@@ -80,7 +82,7 @@ const Index = () => {
       </section>
 
       {/* Who We Serve Section */}
-      <section className="py-16 md:py-24">
+      <section id="who-we-serve" className="py-16 md:py-24">
         <div className="container mx-auto px-4">
           <div className="mx-auto max-w-3xl text-center">
             <h2 className="mb-4 text-3xl font-bold text-foreground md:text-5xl">Who do we serve?</h2>
@@ -92,7 +94,7 @@ const Index = () => {
       </section>
 
       {/* Pain Points Section */}
-      <section className="bg-muted py-16 md:py-24">
+      <section id="pain-points" className="bg-muted py-16 md:py-24">
         <div className="container mx-auto px-4">
           <h2 className="mb-12 text-center text-3xl font-bold text-foreground md:text-5xl">
             You're Not Alone. We've Been There.
@@ -121,7 +123,7 @@ const Index = () => {
       <ComparisonSection />
 
       {/* How We Help Section */}
-      <section className="bg-muted py-16 md:py-24">
+      <section id="how-we-help" className="bg-muted py-16 md:py-24">
         <div className="container mx-auto px-4">
           <h2 className="mb-6 text-center text-3xl font-bold text-foreground md:text-5xl">
             How do we help you?
@@ -249,7 +251,7 @@ const Index = () => {
       </section>
 
       {/* People Process Technology Section */}
-      <section className="bg-muted py-16 md:py-24">
+      <section id="people-process-tech" className="bg-muted py-16 md:py-24">
         <div className="container mx-auto px-4">
           <h2 className="mb-12 text-center text-3xl font-bold text-foreground md:text-5xl">
             People, Process, Technology- In-A-Box
@@ -298,7 +300,7 @@ const Index = () => {
       </section>
 
       {/* Team-Based Model Section */}
-      <section className="py-16 md:py-24">
+      <section id="team-model" className="py-16 md:py-24">
         <div className="container mx-auto px-4">
           <h2 className="mb-6 text-center text-3xl font-bold text-foreground md:text-5xl">
             Why the Team-Based Model is Best for SMBs
@@ -323,7 +325,7 @@ const Index = () => {
       </section>
 
       {/* Testimonials Section */}
-      <section className="bg-muted py-16 md:py-24">
+      <section id="testimonials" className="bg-muted py-16 md:py-24">
         <div className="container mx-auto px-4">
           <h2 className="mb-12 text-center text-3xl font-bold text-foreground md:text-5xl">
             Still Unsure? See what founders like you say about us!
@@ -355,7 +357,7 @@ const Index = () => {
       <FAQSection />
 
       {/* CTA Section */}
-      <section className="bg-gradient-to-br from-primary via-primary to-accent py-16 md:py-24">
+      <section id="about" className="bg-gradient-to-br from-primary via-primary to-accent py-16 md:py-24">
         <div className="container mx-auto px-4">
           <div className="mx-auto max-w-3xl text-center">
             <h2 className="mb-6 text-3xl font-bold text-white md:text-5xl">
@@ -382,7 +384,7 @@ const Index = () => {
       </section>
 
       {/* Footer */}
-      <footer className="border-t bg-background py-12">
+      <footer id="contact" className="border-t bg-background py-12">
         <div className="container mx-auto px-4">
           <div className="grid gap-8 md:grid-cols-4">
             <div>
